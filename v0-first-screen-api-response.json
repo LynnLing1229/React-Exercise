@@ -1,0 +1,3339 @@
+{
+  "schema_name": "pt_review_api",
+  "schema_version": 1,
+  "tracked_person_id": "owner",
+  "review_range": {
+    "start": "2026-07-01",
+    "end": "2026-07-09",
+    "basis": "requested_range",
+    "fallback_used": false
+  },
+  "generated_at": "2026-07-16T00:00:00Z",
+  "data_status": "official_history",
+  "briefing": {
+    "summary": "已确认记录覆盖 9 天，包含 8 天训练、6 条身体反应、1 次 PT/康复记录。",
+    "load_signals": [
+      {
+        "id": "signal_training_days",
+        "label": "训练天数",
+        "value": "8/9 天",
+        "group": "exposure",
+        "tone": "neutral",
+        "notes": null,
+        "source_kind": null,
+        "source": {
+          "source_event_ids": [
+            "event_b6a9d997c2404c55a332b2be6ba3e4f8",
+            "event_f6927490a839422ea471f69a08b51f49",
+            "event_92726cac9996494196f92df12f1d33ec",
+            "event_7758aa4959bc45979eb3765053b35a22",
+            "event_738ad6ed09d1447eae97defd630c0ff7",
+            "event_c87cb345f9064fe7bc17cdbf29d7f4b7",
+            "event_fd10dc4500cc48c1b03da60ad224a447",
+            "event_0f00f066d71d4708aa107b57206f4551",
+            "event_8f0e1dcd71da4a5082a9609c2cc652c1",
+            "event_a3c40bd2b86649578cda5515b96c3acc",
+            "event_coros_67112505321dd60c92519fe9_0"
+          ],
+          "source_draft_ids": [
+            "draft_golden_20260701_rehab_training",
+            "draft_golden_20260702_lower_strength",
+            "draft_golden_20260703_upper_strength",
+            "draft_golden_20260705_run",
+            "draft_golden_20260706_run",
+            "draft_golden_20260707_lower_strength",
+            "draft_golden_20260708_mobility",
+            "draft_golden_20260709_mobility",
+            "draft_golden_20260709_core_strength",
+            "draft_golden_20260709_run",
+            "draft_coros_67112505321dd60c92519fe9_0"
+          ],
+          "source_refs": [
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L14",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L16",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L18",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L12",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L11",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L9",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L7",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L5",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L3",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L1",
+            "raw_coros_67112505321dd60c92519fe9_0"
+          ]
+        }
+      },
+      {
+        "id": "signal_strength_sessions",
+        "label": "力量/康复训练",
+        "value": "5",
+        "group": "exposure",
+        "tone": "neutral",
+        "notes": null,
+        "source_kind": null,
+        "source": {
+          "source_event_ids": [
+            "event_b6a9d997c2404c55a332b2be6ba3e4f8",
+            "event_f6927490a839422ea471f69a08b51f49",
+            "event_92726cac9996494196f92df12f1d33ec",
+            "event_c87cb345f9064fe7bc17cdbf29d7f4b7",
+            "event_8f0e1dcd71da4a5082a9609c2cc652c1"
+          ],
+          "source_draft_ids": [
+            "draft_golden_20260701_rehab_training",
+            "draft_golden_20260702_lower_strength",
+            "draft_golden_20260703_upper_strength",
+            "draft_golden_20260707_lower_strength",
+            "draft_golden_20260709_core_strength"
+          ],
+          "source_refs": [
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L14",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L16",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L18",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L9",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L3"
+          ]
+        }
+      },
+      {
+        "id": "signal_runs",
+        "label": "跑步",
+        "value": "3 次",
+        "group": "exposure",
+        "tone": "neutral",
+        "notes": null,
+        "source_kind": null,
+        "source": {
+          "source_event_ids": [
+            "event_7758aa4959bc45979eb3765053b35a22",
+            "event_738ad6ed09d1447eae97defd630c0ff7",
+            "event_coros_67112505321dd60c92519fe9_0"
+          ],
+          "source_draft_ids": [
+            "draft_golden_20260705_run",
+            "draft_golden_20260706_run",
+            "draft_coros_67112505321dd60c92519fe9_0"
+          ],
+          "source_refs": [
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L12",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L11",
+            "raw_coros_67112505321dd60c92519fe9_0"
+          ]
+        }
+      },
+      {
+        "id": "signal_repeated_pain_days",
+        "label": "疼痛天数",
+        "value": "4",
+        "group": "response",
+        "tone": "attention",
+        "notes": null,
+        "source_kind": null,
+        "source": {
+          "source_event_ids": [
+            "event_2b62a1c5d1db447c8bcbe588307b335d",
+            "event_be41bcf8d91f4fd087a0c14a91d109c5",
+            "event_14c5a92be56841079a051b3057231f40",
+            "event_bb1ffd6960da4bf0a94eeb5731fc8765",
+            "event_315886d8e178415f99aef6837310d2b8",
+            "event_6c39bb563596446989203aa2f29e4cea"
+          ],
+          "source_draft_ids": [
+            "draft_golden_20260701_shoulder_body_status",
+            "draft_golden_20260701_pain_left_knee_lunge",
+            "draft_golden_20260706_pain_left_knee_run",
+            "draft_golden_20260706_pain_left_ankle_run",
+            "draft_golden_20260707_pain_left_knee_split_squat",
+            "draft_golden_20260709_pain_left_knee_run"
+          ],
+          "source_refs": [
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L14",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L11",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L9",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L1"
+          ]
+        }
+      },
+      {
+        "id": "signal_interventions",
+        "label": "干预/调整",
+        "value": "2 条",
+        "group": "response",
+        "tone": "neutral",
+        "notes": null,
+        "source_kind": null,
+        "source": {
+          "source_event_ids": [
+            "event_fd12a9d2551e4bcfb43b6f67ac91aecf",
+            "event_e050b0e1e3d842a983639075d4d56c95"
+          ],
+          "source_draft_ids": [
+            "draft_golden_20260701_stop_lunge_and_quad_treatment",
+            "draft_golden_20260707_deadlift_adjustment"
+          ],
+          "source_refs": [
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L14",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L9"
+          ]
+        }
+      },
+      {
+        "id": "signal_coros_run_volume",
+        "label": "COROS 跑量",
+        "value": "8.20 km / 50:00",
+        "group": "exposure",
+        "tone": "neutral",
+        "notes": null,
+        "source_kind": "coros_structured",
+        "source": {
+          "source_event_ids": [
+            "event_coros_67112505321dd60c92519fe9_0"
+          ],
+          "source_draft_ids": [
+            "draft_coros_67112505321dd60c92519fe9_0"
+          ],
+          "source_refs": [
+            "raw_coros_67112505321dd60c92519fe9_0"
+          ]
+        }
+      },
+      {
+        "id": "signal_coros_run_intensity",
+        "label": "COROS 强度",
+        "value": "平均配速 6'06\"/km；平均 HR 146 bpm",
+        "group": "exposure",
+        "tone": "neutral",
+        "notes": null,
+        "source_kind": "coros_structured",
+        "source": {
+          "source_event_ids": [
+            "event_coros_67112505321dd60c92519fe9_0"
+          ],
+          "source_draft_ids": [
+            "draft_coros_67112505321dd60c92519fe9_0"
+          ],
+          "source_refs": [
+            "raw_coros_67112505321dd60c92519fe9_0"
+          ]
+        }
+      },
+      {
+        "id": "signal_coros_training_load",
+        "label": "COROS 训练负荷",
+        "value": "76",
+        "group": "exposure",
+        "tone": "neutral",
+        "notes": null,
+        "source_kind": "coros_structured",
+        "source": {
+          "source_event_ids": [
+            "event_coros_67112505321dd60c92519fe9_0"
+          ],
+          "source_draft_ids": [
+            "draft_coros_67112505321dd60c92519fe9_0"
+          ],
+          "source_refs": [
+            "raw_coros_67112505321dd60c92519fe9_0"
+          ]
+        }
+      }
+    ],
+    "unresolved_items": [
+      {
+        "id": "unresolved_golden_20260701_left_knee_lunge_outcome",
+        "status_label": "待跟进",
+        "prompt": "7 月 1 日箭步蹲左膝痛被喊停并处理股四头后，左膝后续有没有改善？",
+        "related_draft_ids": [
+          "draft_golden_20260701_pain_left_knee_lunge",
+          "draft_golden_20260701_stop_lunge_and_quad_treatment"
+        ],
+        "source": null
+      },
+      {
+        "id": "unresolved_golden_20260701_shoulder_response",
+        "status_label": "待跟进",
+        "prompt": "7 月 1 日斜方肌/肩部手法和冲击波后，肩部紧和痛有没有改善？",
+        "related_draft_ids": [
+          "draft_golden_20260701_shoulder_body_status",
+          "draft_golden_20260701_pt_visit"
+        ],
+        "source": null
+      },
+      {
+        "id": "unresolved_golden_20260706_left_ankle_knee_run_outcome",
+        "status_label": "待跟进",
+        "prompt": "7 月 6 日跑步时左踝和左膝疼痛，跑后是否持续？",
+        "related_draft_ids": [
+          "draft_golden_20260706_pain_left_ankle_run",
+          "draft_golden_20260706_pain_left_knee_run"
+        ],
+        "source": null
+      },
+      {
+        "id": "unresolved_golden_20260707_left_knee_split_squat_outcome",
+        "status_label": "待跟进",
+        "prompt": "7 月 7 日分腿蹲左膝疼痛，改成普通硬拉后是否还持续或影响后续训练？",
+        "related_draft_ids": [
+          "draft_golden_20260707_pain_left_knee_split_squat",
+          "draft_golden_20260707_deadlift_adjustment"
+        ],
+        "source": null
+      },
+      {
+        "id": "unresolved_golden_20260709_left_knee_run_outcome",
+        "status_label": "待跟进",
+        "prompt": "7 月 9 日跑步后，左膝前内侧疼痛是消失、持续，还是位置变化？",
+        "related_draft_ids": [
+          "draft_golden_20260709_pain_left_knee_run"
+        ],
+        "source": null
+      }
+    ],
+    "source": {
+      "source_event_ids": [
+        "event_2b62a1c5d1db447c8bcbe588307b335d",
+        "event_fd12a9d2551e4bcfb43b6f67ac91aecf",
+        "event_be41bcf8d91f4fd087a0c14a91d109c5",
+        "event_57fc5b376f244454ba303b221c57d24c",
+        "event_b6a9d997c2404c55a332b2be6ba3e4f8",
+        "event_f6927490a839422ea471f69a08b51f49",
+        "event_92726cac9996494196f92df12f1d33ec",
+        "event_26ccff9d93014de79eb751b004e20490",
+        "event_7758aa4959bc45979eb3765053b35a22",
+        "event_14c5a92be56841079a051b3057231f40",
+        "event_bb1ffd6960da4bf0a94eeb5731fc8765",
+        "event_738ad6ed09d1447eae97defd630c0ff7",
+        "event_e050b0e1e3d842a983639075d4d56c95",
+        "event_315886d8e178415f99aef6837310d2b8",
+        "event_c87cb345f9064fe7bc17cdbf29d7f4b7",
+        "event_fd10dc4500cc48c1b03da60ad224a447",
+        "event_716fa86175c444de94a8efbcdb49be2b",
+        "event_6c39bb563596446989203aa2f29e4cea",
+        "event_0f00f066d71d4708aa107b57206f4551",
+        "event_8f0e1dcd71da4a5082a9609c2cc652c1",
+        "event_a3c40bd2b86649578cda5515b96c3acc",
+        "event_coros_67112505321dd60c92519fe9_0"
+      ],
+      "source_draft_ids": [
+        "draft_golden_20260701_shoulder_body_status",
+        "draft_golden_20260701_stop_lunge_and_quad_treatment",
+        "draft_golden_20260701_pain_left_knee_lunge",
+        "draft_golden_20260701_pt_visit",
+        "draft_golden_20260701_rehab_training",
+        "draft_golden_20260702_lower_strength",
+        "draft_golden_20260703_upper_strength",
+        "draft_golden_20260704_rest_note",
+        "draft_golden_20260705_run",
+        "draft_golden_20260706_pain_left_knee_run",
+        "draft_golden_20260706_pain_left_ankle_run",
+        "draft_golden_20260706_run",
+        "draft_golden_20260707_deadlift_adjustment",
+        "draft_golden_20260707_pain_left_knee_split_squat",
+        "draft_golden_20260707_lower_strength",
+        "draft_golden_20260708_mobility",
+        "draft_golden_20260709_landing_adjustment_outcome",
+        "draft_golden_20260709_pain_left_knee_run",
+        "draft_golden_20260709_mobility",
+        "draft_golden_20260709_core_strength",
+        "draft_golden_20260709_run",
+        "draft_coros_67112505321dd60c92519fe9_0"
+      ],
+      "source_refs": [
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L14",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L16",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L18",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L20",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L12",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L11",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L9",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L7",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L1",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L5",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L3",
+        "raw_coros_67112505321dd60c92519fe9_0"
+      ]
+    }
+  },
+  "issue_cards": [
+    {
+      "issue_id": "issue_left_knee",
+      "thread_ids": [
+        "thread_left_knee"
+      ],
+      "display_title": "左膝",
+      "display_summary": "跑步及训练中出现疼痛；短暂改善后复现，后续待确认。",
+      "rank": 1,
+      "selection_reason": "unresolved_followup",
+      "micro_context": {
+        "location_qualifier": "前内侧",
+        "attention_badge": "反复出现",
+        "context_items": [
+          {
+            "label": "箭步蹲加哑铃上举",
+            "detail": "箭步蹲加哑铃上举起身阶段",
+            "source": {
+              "source_event_ids": [
+                "event_be41bcf8d91f4fd087a0c14a91d109c5"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260701_pain_left_knee_lunge"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L14"
+              ]
+            }
+          },
+          {
+            "label": "跑步",
+            "detail": "跑步",
+            "source": {
+              "source_event_ids": [
+                "event_14c5a92be56841079a051b3057231f40"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260706_pain_left_knee_run"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L11"
+              ]
+            }
+          },
+          {
+            "label": "分腿蹲",
+            "detail": "分腿蹲左腿由下蹲位起身阶段（右腿在前）",
+            "source": {
+              "source_event_ids": [
+                "event_315886d8e178415f99aef6837310d2b8"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260707_pain_left_knee_split_squat"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L9"
+              ]
+            }
+          }
+        ],
+        "related_record_count": 4,
+        "related_record_dates": [
+          "2026-07-01",
+          "2026-07-06",
+          "2026-07-07",
+          "2026-07-09"
+        ],
+        "related_records_summary": "4 次｜7/1、7/6、7/7、7/9",
+        "care_status_lines": [
+          {
+            "kind": "care",
+            "text": "PT局部处理、训练中调整动作和跑步中调整落地方式",
+            "source": {
+              "source_event_ids": [
+                "event_fd12a9d2551e4bcfb43b6f67ac91aecf",
+                "event_e050b0e1e3d842a983639075d4d56c95",
+                "event_a3c40bd2b86649578cda5515b96c3acc"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260701_stop_lunge_and_quad_treatment",
+                "draft_golden_20260707_deadlift_adjustment",
+                "draft_golden_20260709_run"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L14",
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L9",
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L1"
+              ]
+            }
+          },
+          {
+            "kind": "status",
+            "text": "短暂改善后复现，后续待确认",
+            "source": {
+              "source_event_ids": [
+                "event_716fa86175c444de94a8efbcdb49be2b"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260709_landing_adjustment_outcome"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L1"
+              ]
+            }
+          }
+        ],
+        "exposure_items": [
+          {
+            "activity_type": "strength",
+            "label": "力量训练",
+            "session_count": 1,
+            "source": {
+              "source_event_ids": [
+                "event_c87cb345f9064fe7bc17cdbf29d7f4b7"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260707_lower_strength"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L9"
+              ]
+            }
+          },
+          {
+            "activity_type": "rehab",
+            "label": "康复训练",
+            "session_count": 1,
+            "source": {
+              "source_event_ids": [
+                "event_b6a9d997c2404c55a332b2be6ba3e4f8"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260701_rehab_training"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L14"
+              ]
+            }
+          },
+          {
+            "activity_type": "cardio",
+            "label": "跑步",
+            "session_count": 2,
+            "source": {
+              "source_event_ids": [
+                "event_738ad6ed09d1447eae97defd630c0ff7",
+                "event_a3c40bd2b86649578cda5515b96c3acc"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260706_run",
+                "draft_golden_20260709_run"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L11",
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L1"
+              ]
+            }
+          }
+        ],
+        "exposure_summary": "力量训练 1 次｜康复训练 1 次｜跑步 2 次",
+        "selection_reason": "unresolved_followup"
+      },
+      "body_locations": [
+        {
+          "side": "left",
+          "broad_region": "knee",
+          "specific_location": "front-medial knee",
+          "original_text": "左边膝盖，主要是正面偏内侧一点",
+          "canonical_location_id": "left_knee_front_medial",
+          "related_regions": [
+            "knee"
+          ],
+          "confidence": "high",
+          "render_target": {
+            "target_id": "bodymap_left_knee_accent",
+            "kind": "accent",
+            "view": "front",
+            "precision": "local_accent",
+            "label": "左膝前内侧",
+            "confidence": "high",
+            "original_text": "左边膝盖，主要是正面偏内侧一点",
+            "x": 0.575,
+            "y": 0.715,
+            "rx": 0.72,
+            "ry": 0.92,
+            "rotate": -12,
+            "shape": "pill",
+            "callout_side": "right",
+            "reference_region_target_ids": [
+              "bodymap_region_left_knee"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "source_event_ids": [
+          "event_fd12a9d2551e4bcfb43b6f67ac91aecf",
+          "event_be41bcf8d91f4fd087a0c14a91d109c5",
+          "event_b6a9d997c2404c55a332b2be6ba3e4f8",
+          "event_14c5a92be56841079a051b3057231f40",
+          "event_738ad6ed09d1447eae97defd630c0ff7",
+          "event_e050b0e1e3d842a983639075d4d56c95",
+          "event_315886d8e178415f99aef6837310d2b8",
+          "event_c87cb345f9064fe7bc17cdbf29d7f4b7",
+          "event_716fa86175c444de94a8efbcdb49be2b",
+          "event_6c39bb563596446989203aa2f29e4cea",
+          "event_a3c40bd2b86649578cda5515b96c3acc"
+        ],
+        "source_draft_ids": [
+          "draft_golden_20260701_stop_lunge_and_quad_treatment",
+          "draft_golden_20260701_pain_left_knee_lunge",
+          "draft_golden_20260701_rehab_training",
+          "draft_golden_20260706_pain_left_knee_run",
+          "draft_golden_20260706_run",
+          "draft_golden_20260707_deadlift_adjustment",
+          "draft_golden_20260707_pain_left_knee_split_squat",
+          "draft_golden_20260707_lower_strength",
+          "draft_golden_20260709_landing_adjustment_outcome",
+          "draft_golden_20260709_pain_left_knee_run",
+          "draft_golden_20260709_run"
+        ],
+        "source_refs": [
+          "raw_6f12e469c4d14b1f907f0c26662e3647:L14",
+          "raw_6f12e469c4d14b1f907f0c26662e3647:L11",
+          "raw_6f12e469c4d14b1f907f0c26662e3647:L9",
+          "raw_6f12e469c4d14b1f907f0c26662e3647:L1"
+        ]
+      }
+    },
+    {
+      "issue_id": "issue_left_ankle",
+      "thread_ids": [
+        "thread_left_ankle"
+      ],
+      "display_title": "左踝",
+      "display_summary": "跑步时出现疼痛；后续未记录。",
+      "rank": 2,
+      "selection_reason": "unresolved_followup",
+      "micro_context": {
+        "location_qualifier": null,
+        "attention_badge": "单次出现",
+        "context_items": [
+          {
+            "label": "跑步",
+            "detail": "跑步",
+            "source": {
+              "source_event_ids": [
+                "event_bb1ffd6960da4bf0a94eeb5731fc8765"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260706_pain_left_ankle_run"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L11"
+              ]
+            }
+          }
+        ],
+        "related_record_count": 1,
+        "related_record_dates": [
+          "2026-07-06"
+        ],
+        "related_records_summary": "1 次｜7/6",
+        "care_status_lines": [
+          {
+            "kind": "status",
+            "text": "状态：后续未记录",
+            "source": {
+              "source_event_ids": [
+                "event_bb1ffd6960da4bf0a94eeb5731fc8765"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260706_pain_left_ankle_run"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L11"
+              ]
+            }
+          }
+        ],
+        "exposure_items": [
+          {
+            "activity_type": "cardio",
+            "label": "跑步",
+            "session_count": 1,
+            "source": {
+              "source_event_ids": [
+                "event_738ad6ed09d1447eae97defd630c0ff7"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260706_run"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L11"
+              ]
+            }
+          }
+        ],
+        "exposure_summary": "跑步 1 次",
+        "selection_reason": "unresolved_followup"
+      },
+      "body_locations": [
+        {
+          "side": "left",
+          "broad_region": "ankle",
+          "specific_location": null,
+          "original_text": "左侧脚踝",
+          "canonical_location_id": "left_ankle_general",
+          "related_regions": [
+            "ankle"
+          ],
+          "confidence": "medium",
+          "render_target": {
+            "target_id": "bodymap_left_ankle_accent",
+            "kind": "accent",
+            "view": "front",
+            "precision": "local_accent",
+            "label": "左踝",
+            "confidence": "medium",
+            "original_text": "左侧脚踝",
+            "x": 0.57,
+            "y": 0.898,
+            "rx": 0.86,
+            "ry": 1.04,
+            "rotate": -8,
+            "shape": "dot",
+            "callout_side": "right"
+          }
+        }
+      ],
+      "source": {
+        "source_event_ids": [
+          "event_bb1ffd6960da4bf0a94eeb5731fc8765",
+          "event_738ad6ed09d1447eae97defd630c0ff7"
+        ],
+        "source_draft_ids": [
+          "draft_golden_20260706_pain_left_ankle_run",
+          "draft_golden_20260706_run"
+        ],
+        "source_refs": [
+          "raw_6f12e469c4d14b1f907f0c26662e3647:L11"
+        ]
+      }
+    },
+    {
+      "issue_id": "issue_unknown_shoulder",
+      "thread_ids": [
+        "thread_unknown_shoulder"
+      ],
+      "display_title": "肩",
+      "display_summary": "上次记录间歇性紧张伴疼痛；处理后未再记录相关状态。",
+      "rank": 3,
+      "selection_reason": "unresolved_followup",
+      "micro_context": {
+        "location_qualifier": "斜方肌",
+        "attention_badge": "待跟进",
+        "context_items": [],
+        "related_record_count": 1,
+        "related_record_dates": [
+          "2026-07-01"
+        ],
+        "related_records_summary": "1 次｜7/1",
+        "care_status_lines": [
+          {
+            "kind": "care",
+            "text": "PT局部处理",
+            "source": {
+              "source_event_ids": [
+                "event_57fc5b376f244454ba303b221c57d24c"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260701_pt_visit"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L14"
+              ]
+            }
+          },
+          {
+            "kind": "status",
+            "text": "状态：处理后未再记录相关状态",
+            "source": {
+              "source_event_ids": [
+                "event_2b62a1c5d1db447c8bcbe588307b335d"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260701_shoulder_body_status"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L14"
+              ]
+            }
+          }
+        ],
+        "exposure_items": [],
+        "exposure_summary": null,
+        "selection_reason": "unresolved_followup"
+      },
+      "body_locations": [
+        {
+          "side": "unknown",
+          "broad_region": "shoulder",
+          "specific_location": "trapezius",
+          "original_text": "斜方肌",
+          "canonical_location_id": "unknown_shoulder_trapezius",
+          "related_regions": [
+            "trapezius",
+            "shoulder",
+            "upper_back"
+          ],
+          "confidence": "high",
+          "render_target": {
+            "target_id": "bodymap_trapezius_back_group",
+            "kind": "region",
+            "view": "back",
+            "precision": "svg_path_group",
+            "label": "斜方肌",
+            "confidence": "high",
+            "original_text": "斜方肌",
+            "callout_anchor": {
+              "x": 0.52,
+              "y": 0.2
+            },
+            "callout_side": "right",
+            "emphasis": "context",
+            "region_target_ids": [
+              "bodymap_region_left_trapezius_upper",
+              "bodymap_region_left_trapezius_mid",
+              "bodymap_region_left_trapezius_lower",
+              "bodymap_region_right_trapezius_upper",
+              "bodymap_region_right_trapezius_mid",
+              "bodymap_region_right_trapezius_lower"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "source_event_ids": [
+          "event_2b62a1c5d1db447c8bcbe588307b335d",
+          "event_57fc5b376f244454ba303b221c57d24c"
+        ],
+        "source_draft_ids": [
+          "draft_golden_20260701_shoulder_body_status",
+          "draft_golden_20260701_pt_visit"
+        ],
+        "source_refs": [
+          "raw_6f12e469c4d14b1f907f0c26662e3647:L14"
+        ]
+      }
+    }
+  ],
+  "body_map": {
+    "views": [
+      {
+        "id": "front",
+        "label": "正面"
+      },
+      {
+        "id": "back",
+        "label": "背面"
+      }
+    ],
+    "markers": [
+      {
+        "marker_id": "marker_left_ankle",
+        "marker_role": "problem",
+        "default_visible": true,
+        "label": "左踝",
+        "render_target": {
+          "target_id": "bodymap_left_ankle_accent",
+          "kind": "accent",
+          "view": "front",
+          "precision": "local_accent",
+          "label": "左踝",
+          "confidence": "medium",
+          "original_text": "左侧脚踝",
+          "x": 0.57,
+          "y": 0.898,
+          "rx": 0.86,
+          "ry": 1.04,
+          "rotate": -8,
+          "shape": "dot",
+          "callout_side": "right"
+        },
+        "source": {
+          "source_event_ids": [
+            "event_bb1ffd6960da4bf0a94eeb5731fc8765",
+            "event_738ad6ed09d1447eae97defd630c0ff7"
+          ],
+          "source_draft_ids": [
+            "draft_golden_20260706_pain_left_ankle_run",
+            "draft_golden_20260706_run"
+          ],
+          "source_refs": [
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L11"
+          ]
+        },
+        "muscle_id": null,
+        "known_set_count": null,
+        "heat_level": null,
+        "has_unrecorded_sets": null,
+        "roles": [],
+        "contributing_exercises": [],
+        "thread_id": "thread_left_ankle",
+        "issue_id": "issue_left_ankle",
+        "selected_issue_card": true,
+        "side": "left",
+        "broad_region": "ankle",
+        "specific_location": null,
+        "original_text": "左侧脚踝",
+        "confidence": "medium",
+        "related_regions": [
+          "ankle"
+        ],
+        "event_type_counts": {
+          "pain": 1,
+          "training": 1
+        }
+      },
+      {
+        "marker_id": "marker_left_knee",
+        "marker_role": "problem",
+        "default_visible": true,
+        "label": "左膝",
+        "render_target": {
+          "target_id": "bodymap_left_knee_accent",
+          "kind": "accent",
+          "view": "front",
+          "precision": "local_accent",
+          "label": "左膝前内侧",
+          "confidence": "high",
+          "original_text": "左边膝盖，主要是正面偏内侧一点",
+          "x": 0.575,
+          "y": 0.715,
+          "rx": 0.72,
+          "ry": 0.92,
+          "rotate": -12,
+          "shape": "pill",
+          "callout_side": "right",
+          "reference_region_target_ids": [
+            "bodymap_region_left_knee"
+          ]
+        },
+        "source": {
+          "source_event_ids": [
+            "event_fd12a9d2551e4bcfb43b6f67ac91aecf",
+            "event_be41bcf8d91f4fd087a0c14a91d109c5",
+            "event_b6a9d997c2404c55a332b2be6ba3e4f8",
+            "event_14c5a92be56841079a051b3057231f40",
+            "event_738ad6ed09d1447eae97defd630c0ff7",
+            "event_e050b0e1e3d842a983639075d4d56c95",
+            "event_315886d8e178415f99aef6837310d2b8",
+            "event_c87cb345f9064fe7bc17cdbf29d7f4b7",
+            "event_716fa86175c444de94a8efbcdb49be2b",
+            "event_6c39bb563596446989203aa2f29e4cea",
+            "event_a3c40bd2b86649578cda5515b96c3acc"
+          ],
+          "source_draft_ids": [
+            "draft_golden_20260701_stop_lunge_and_quad_treatment",
+            "draft_golden_20260701_pain_left_knee_lunge",
+            "draft_golden_20260701_rehab_training",
+            "draft_golden_20260706_pain_left_knee_run",
+            "draft_golden_20260706_run",
+            "draft_golden_20260707_deadlift_adjustment",
+            "draft_golden_20260707_pain_left_knee_split_squat",
+            "draft_golden_20260707_lower_strength",
+            "draft_golden_20260709_landing_adjustment_outcome",
+            "draft_golden_20260709_pain_left_knee_run",
+            "draft_golden_20260709_run"
+          ],
+          "source_refs": [
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L14",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L11",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L9",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L1"
+          ]
+        },
+        "muscle_id": null,
+        "known_set_count": null,
+        "heat_level": null,
+        "has_unrecorded_sets": null,
+        "roles": [],
+        "contributing_exercises": [],
+        "thread_id": "thread_left_knee",
+        "issue_id": "issue_left_knee",
+        "selected_issue_card": true,
+        "side": "left",
+        "broad_region": "knee",
+        "specific_location": "front-medial knee",
+        "original_text": "左边膝盖，主要是正面偏内侧一点",
+        "confidence": "high",
+        "related_regions": [
+          "knee"
+        ],
+        "event_type_counts": {
+          "intervention": 2,
+          "pain": 4,
+          "training": 4,
+          "outcome": 1
+        }
+      },
+      {
+        "marker_id": "marker_unknown_shoulder",
+        "marker_role": "problem",
+        "default_visible": true,
+        "label": "肩",
+        "render_target": {
+          "target_id": "bodymap_trapezius_back_group",
+          "kind": "region",
+          "view": "back",
+          "precision": "svg_path_group",
+          "label": "斜方肌",
+          "confidence": "high",
+          "original_text": "斜方肌",
+          "callout_anchor": {
+            "x": 0.52,
+            "y": 0.2
+          },
+          "callout_side": "right",
+          "emphasis": "context",
+          "region_target_ids": [
+            "bodymap_region_left_trapezius_upper",
+            "bodymap_region_left_trapezius_mid",
+            "bodymap_region_left_trapezius_lower",
+            "bodymap_region_right_trapezius_upper",
+            "bodymap_region_right_trapezius_mid",
+            "bodymap_region_right_trapezius_lower"
+          ]
+        },
+        "source": {
+          "source_event_ids": [
+            "event_2b62a1c5d1db447c8bcbe588307b335d",
+            "event_57fc5b376f244454ba303b221c57d24c"
+          ],
+          "source_draft_ids": [
+            "draft_golden_20260701_shoulder_body_status",
+            "draft_golden_20260701_pt_visit"
+          ],
+          "source_refs": [
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L14"
+          ]
+        },
+        "muscle_id": null,
+        "known_set_count": null,
+        "heat_level": null,
+        "has_unrecorded_sets": null,
+        "roles": [],
+        "contributing_exercises": [],
+        "thread_id": "thread_unknown_shoulder",
+        "issue_id": "issue_unknown_shoulder",
+        "selected_issue_card": true,
+        "side": "unknown",
+        "broad_region": "shoulder",
+        "specific_location": "trapezius",
+        "original_text": "斜方肌",
+        "confidence": "high",
+        "related_regions": [
+          "trapezius",
+          "shoulder",
+          "upper_back"
+        ],
+        "event_type_counts": {
+          "body_status": 1,
+          "pt_visit": 1
+        }
+      },
+      {
+        "marker_id": "marker_training_glutes_back",
+        "marker_role": "training_review",
+        "default_visible": false,
+        "label": "臀大肌/臀中肌",
+        "render_target": {
+          "target_id": "training_load_glutes_back",
+          "kind": "region",
+          "view": "back",
+          "precision": "canonical_muscle_group",
+          "confidence": "catalog",
+          "label": "臀大肌/臀中肌",
+          "callout_lines": [
+            "臀大肌/臀中肌",
+            "24 组"
+          ],
+          "original_text": "壶铃摇摆、壶铃硬拉、侧向分腿、溜冰式、分腿蹲、普拉提床长箱天鹅式、箭步蹲加哑铃上举",
+          "region_target_ids": [
+            "bodymap_region_left_gluteus_medius",
+            "bodymap_region_left_gluteus_maximus",
+            "bodymap_region_right_gluteus_medius",
+            "bodymap_region_right_gluteus_maximus"
+          ],
+          "emphasis": "context"
+        },
+        "source": {
+          "source_event_ids": [
+            "event_b6a9d997c2404c55a332b2be6ba3e4f8",
+            "event_f6927490a839422ea471f69a08b51f49",
+            "event_c87cb345f9064fe7bc17cdbf29d7f4b7"
+          ],
+          "source_draft_ids": [
+            "draft_golden_20260701_rehab_training",
+            "draft_golden_20260702_lower_strength",
+            "draft_golden_20260707_lower_strength"
+          ],
+          "source_refs": [
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L14",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L16",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L9"
+          ]
+        },
+        "muscle_id": "glutes",
+        "known_set_count": 24,
+        "heat_level": 5,
+        "has_unrecorded_sets": true,
+        "roles": [
+          "primary",
+          "secondary"
+        ],
+        "contributing_exercises": [
+          {
+            "exercise_label": "壶铃摇摆",
+            "canonical_exercise_label": "壶铃摇摆",
+            "known_sets": 6,
+            "has_unrecorded_sets": true,
+            "occurrence_count": 3,
+            "role": "primary",
+            "source_event_ids": [
+              "event_b6a9d997c2404c55a332b2be6ba3e4f8",
+              "event_f6927490a839422ea471f69a08b51f49",
+              "event_c87cb345f9064fe7bc17cdbf29d7f4b7"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260701_rehab_training",
+              "draft_golden_20260702_lower_strength",
+              "draft_golden_20260707_lower_strength"
+            ]
+          },
+          {
+            "exercise_label": "壶铃硬拉",
+            "canonical_exercise_label": "硬拉",
+            "known_sets": 6,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 2,
+            "role": "primary",
+            "source_event_ids": [
+              "event_f6927490a839422ea471f69a08b51f49",
+              "event_c87cb345f9064fe7bc17cdbf29d7f4b7"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260702_lower_strength",
+              "draft_golden_20260707_lower_strength"
+            ]
+          },
+          {
+            "exercise_label": "侧向分腿",
+            "canonical_exercise_label": "侧向分腿",
+            "known_sets": 2,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 1,
+            "role": "primary",
+            "source_event_ids": [
+              "event_b6a9d997c2404c55a332b2be6ba3e4f8"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260701_rehab_training"
+            ]
+          },
+          {
+            "exercise_label": "溜冰式",
+            "canonical_exercise_label": "溜冰式",
+            "known_sets": 2,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 1,
+            "role": "primary",
+            "source_event_ids": [
+              "event_b6a9d997c2404c55a332b2be6ba3e4f8"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260701_rehab_training"
+            ]
+          },
+          {
+            "exercise_label": "分腿蹲",
+            "canonical_exercise_label": "分腿蹲",
+            "known_sets": 6,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 2,
+            "role": "secondary",
+            "source_event_ids": [
+              "event_f6927490a839422ea471f69a08b51f49",
+              "event_c87cb345f9064fe7bc17cdbf29d7f4b7"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260702_lower_strength",
+              "draft_golden_20260707_lower_strength"
+            ]
+          },
+          {
+            "exercise_label": "普拉提床长箱天鹅式",
+            "canonical_exercise_label": "普拉提床长箱天鹅式",
+            "known_sets": 2,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 1,
+            "role": "secondary",
+            "source_event_ids": [
+              "event_b6a9d997c2404c55a332b2be6ba3e4f8"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260701_rehab_training"
+            ]
+          },
+          {
+            "exercise_label": "箭步蹲加哑铃上举",
+            "canonical_exercise_label": "箭步蹲加哑铃上举",
+            "known_sets": null,
+            "has_unrecorded_sets": true,
+            "occurrence_count": 1,
+            "role": "secondary",
+            "source_event_ids": [
+              "event_b6a9d997c2404c55a332b2be6ba3e4f8"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260701_rehab_training"
+            ]
+          }
+        ],
+        "display_text": "臀大肌/臀中肌：24 组",
+        "side": "bilateral",
+        "broad_region": "glutes",
+        "specific_location": "臀大肌/臀中肌",
+        "event_type_counts": {
+          "training": 3
+        }
+      },
+      {
+        "marker_id": "marker_training_hamstrings_back",
+        "marker_role": "training_review",
+        "default_visible": false,
+        "label": "腘绳肌",
+        "render_target": {
+          "target_id": "training_load_hamstrings_back",
+          "kind": "region",
+          "view": "back",
+          "precision": "canonical_muscle_group",
+          "confidence": "catalog",
+          "label": "腘绳肌",
+          "callout_lines": [
+            "腘绳肌｜18 组"
+          ],
+          "original_text": "壶铃摇摆、壶铃硬拉、分腿蹲",
+          "region_target_ids": [
+            "bodymap_region_left_hamstrings",
+            "bodymap_region_right_hamstrings"
+          ],
+          "emphasis": "context"
+        },
+        "source": {
+          "source_event_ids": [
+            "event_b6a9d997c2404c55a332b2be6ba3e4f8",
+            "event_f6927490a839422ea471f69a08b51f49",
+            "event_c87cb345f9064fe7bc17cdbf29d7f4b7"
+          ],
+          "source_draft_ids": [
+            "draft_golden_20260701_rehab_training",
+            "draft_golden_20260702_lower_strength",
+            "draft_golden_20260707_lower_strength"
+          ],
+          "source_refs": [
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L14",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L16",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L9"
+          ]
+        },
+        "muscle_id": "hamstrings",
+        "known_set_count": 18,
+        "heat_level": 4,
+        "has_unrecorded_sets": true,
+        "roles": [
+          "primary",
+          "secondary"
+        ],
+        "contributing_exercises": [
+          {
+            "exercise_label": "壶铃摇摆",
+            "canonical_exercise_label": "壶铃摇摆",
+            "known_sets": 6,
+            "has_unrecorded_sets": true,
+            "occurrence_count": 3,
+            "role": "primary",
+            "source_event_ids": [
+              "event_b6a9d997c2404c55a332b2be6ba3e4f8",
+              "event_f6927490a839422ea471f69a08b51f49",
+              "event_c87cb345f9064fe7bc17cdbf29d7f4b7"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260701_rehab_training",
+              "draft_golden_20260702_lower_strength",
+              "draft_golden_20260707_lower_strength"
+            ]
+          },
+          {
+            "exercise_label": "壶铃硬拉",
+            "canonical_exercise_label": "硬拉",
+            "known_sets": 6,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 2,
+            "role": "primary",
+            "source_event_ids": [
+              "event_f6927490a839422ea471f69a08b51f49",
+              "event_c87cb345f9064fe7bc17cdbf29d7f4b7"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260702_lower_strength",
+              "draft_golden_20260707_lower_strength"
+            ]
+          },
+          {
+            "exercise_label": "分腿蹲",
+            "canonical_exercise_label": "分腿蹲",
+            "known_sets": 6,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 2,
+            "role": "secondary",
+            "source_event_ids": [
+              "event_f6927490a839422ea471f69a08b51f49",
+              "event_c87cb345f9064fe7bc17cdbf29d7f4b7"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260702_lower_strength",
+              "draft_golden_20260707_lower_strength"
+            ]
+          }
+        ],
+        "display_text": "腘绳肌：18 组",
+        "side": "bilateral",
+        "broad_region": "hamstrings",
+        "specific_location": "腘绳肌",
+        "event_type_counts": {
+          "training": 3
+        }
+      },
+      {
+        "marker_id": "marker_training_lats_back",
+        "marker_role": "training_review",
+        "default_visible": false,
+        "label": "背阔肌",
+        "render_target": {
+          "target_id": "training_load_lats_back",
+          "kind": "region",
+          "view": "back",
+          "precision": "canonical_muscle_group",
+          "confidence": "catalog",
+          "label": "背阔肌",
+          "callout_lines": [
+            "背阔肌｜9 组"
+          ],
+          "original_text": "TRX 划船、俯卧斜板引体向上、哑铃划船",
+          "region_target_ids": [
+            "bodymap_region_left_lats",
+            "bodymap_region_right_lats"
+          ],
+          "emphasis": "context"
+        },
+        "source": {
+          "source_event_ids": [
+            "event_b6a9d997c2404c55a332b2be6ba3e4f8",
+            "event_92726cac9996494196f92df12f1d33ec"
+          ],
+          "source_draft_ids": [
+            "draft_golden_20260701_rehab_training",
+            "draft_golden_20260703_upper_strength"
+          ],
+          "source_refs": [
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L14",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L18"
+          ]
+        },
+        "muscle_id": "lats",
+        "known_set_count": 9,
+        "heat_level": 3,
+        "has_unrecorded_sets": false,
+        "roles": [
+          "primary"
+        ],
+        "contributing_exercises": [
+          {
+            "exercise_label": "TRX 划船",
+            "canonical_exercise_label": "TRX 划船",
+            "known_sets": 3,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 1,
+            "role": "primary",
+            "source_event_ids": [
+              "event_b6a9d997c2404c55a332b2be6ba3e4f8"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260701_rehab_training"
+            ]
+          },
+          {
+            "exercise_label": "俯卧斜板引体向上",
+            "canonical_exercise_label": "俯卧斜板划船",
+            "known_sets": 3,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 1,
+            "role": "primary",
+            "source_event_ids": [
+              "event_b6a9d997c2404c55a332b2be6ba3e4f8"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260701_rehab_training"
+            ]
+          },
+          {
+            "exercise_label": "哑铃划船",
+            "canonical_exercise_label": "划船",
+            "known_sets": 3,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 1,
+            "role": "primary",
+            "source_event_ids": [
+              "event_92726cac9996494196f92df12f1d33ec"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260703_upper_strength"
+            ]
+          }
+        ],
+        "display_text": "背阔肌：9 组",
+        "side": "bilateral",
+        "broad_region": "lats",
+        "specific_location": "背阔肌",
+        "event_type_counts": {
+          "training": 2
+        }
+      },
+      {
+        "marker_id": "marker_training_calves_back",
+        "marker_role": "training_review",
+        "default_visible": false,
+        "label": "小腿肌群",
+        "render_target": {
+          "target_id": "training_load_calves_back",
+          "kind": "region",
+          "view": "back",
+          "precision": "canonical_muscle_group",
+          "confidence": "catalog",
+          "label": "小腿肌群",
+          "callout_lines": [
+            "小腿肌群｜3 组"
+          ],
+          "original_text": "提踵",
+          "region_target_ids": [
+            "bodymap_region_left_calf_gastroc_medial",
+            "bodymap_region_left_calf_gastroc_lateral",
+            "bodymap_region_left_calf_soleus",
+            "bodymap_region_right_calf_gastroc_medial",
+            "bodymap_region_right_calf_gastroc_lateral",
+            "bodymap_region_right_calf_soleus"
+          ],
+          "emphasis": "context"
+        },
+        "source": {
+          "source_event_ids": [
+            "event_c87cb345f9064fe7bc17cdbf29d7f4b7"
+          ],
+          "source_draft_ids": [
+            "draft_golden_20260707_lower_strength"
+          ],
+          "source_refs": [
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L9"
+          ]
+        },
+        "muscle_id": "calves",
+        "known_set_count": 3,
+        "heat_level": 1,
+        "has_unrecorded_sets": false,
+        "roles": [
+          "primary"
+        ],
+        "contributing_exercises": [
+          {
+            "exercise_label": "提踵",
+            "canonical_exercise_label": "提踵",
+            "known_sets": 3,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 1,
+            "role": "primary",
+            "source_event_ids": [
+              "event_c87cb345f9064fe7bc17cdbf29d7f4b7"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260707_lower_strength"
+            ]
+          }
+        ],
+        "display_text": "小腿肌群：3 组",
+        "side": "bilateral",
+        "broad_region": "calves",
+        "specific_location": "小腿肌群",
+        "event_type_counts": {
+          "training": 1
+        }
+      },
+      {
+        "marker_id": "marker_training_trapezius_back",
+        "marker_role": "training_review",
+        "default_visible": false,
+        "label": "斜方肌",
+        "render_target": {
+          "target_id": "training_load_trapezius_back",
+          "kind": "region",
+          "view": "back",
+          "precision": "canonical_muscle_group",
+          "confidence": "catalog",
+          "label": "斜方肌",
+          "callout_lines": [
+            "斜方肌｜3 组"
+          ],
+          "original_text": "哑铃侧平举",
+          "region_target_ids": [
+            "bodymap_region_left_trapezius_upper",
+            "bodymap_region_right_trapezius_upper"
+          ],
+          "emphasis": "context"
+        },
+        "source": {
+          "source_event_ids": [
+            "event_92726cac9996494196f92df12f1d33ec"
+          ],
+          "source_draft_ids": [
+            "draft_golden_20260703_upper_strength"
+          ],
+          "source_refs": [
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L18"
+          ]
+        },
+        "muscle_id": "trapezius",
+        "known_set_count": 3,
+        "heat_level": 1,
+        "has_unrecorded_sets": false,
+        "roles": [
+          "stabilizer"
+        ],
+        "contributing_exercises": [
+          {
+            "exercise_label": "哑铃侧平举",
+            "canonical_exercise_label": "侧平举",
+            "known_sets": 3,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 1,
+            "role": "stabilizer",
+            "source_event_ids": [
+              "event_92726cac9996494196f92df12f1d33ec"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260703_upper_strength"
+            ]
+          }
+        ],
+        "display_text": "斜方肌：3 组",
+        "side": "bilateral",
+        "broad_region": "trapezius",
+        "specific_location": "斜方肌",
+        "event_type_counts": {
+          "training": 1
+        }
+      },
+      {
+        "marker_id": "marker_training_triceps_back",
+        "marker_role": "training_review",
+        "default_visible": false,
+        "label": "肱三头肌",
+        "render_target": {
+          "target_id": "training_load_triceps_back",
+          "kind": "region",
+          "view": "back",
+          "precision": "canonical_muscle_group",
+          "confidence": "catalog",
+          "label": "肱三头肌",
+          "callout_lines": [
+            "肱三头肌｜3 组"
+          ],
+          "original_text": "哑铃臂屈伸",
+          "region_target_ids": [
+            "bodymap_region_left_triceps",
+            "bodymap_region_right_triceps"
+          ],
+          "emphasis": "context"
+        },
+        "source": {
+          "source_event_ids": [
+            "event_92726cac9996494196f92df12f1d33ec"
+          ],
+          "source_draft_ids": [
+            "draft_golden_20260703_upper_strength"
+          ],
+          "source_refs": [
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L18"
+          ]
+        },
+        "muscle_id": "triceps",
+        "known_set_count": 3,
+        "heat_level": 1,
+        "has_unrecorded_sets": false,
+        "roles": [
+          "primary"
+        ],
+        "contributing_exercises": [
+          {
+            "exercise_label": "哑铃臂屈伸",
+            "canonical_exercise_label": "肱三头伸展",
+            "known_sets": 3,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 1,
+            "role": "primary",
+            "source_event_ids": [
+              "event_92726cac9996494196f92df12f1d33ec"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260703_upper_strength"
+            ]
+          }
+        ],
+        "display_text": "肱三头肌：3 组",
+        "side": "bilateral",
+        "broad_region": "triceps",
+        "specific_location": "肱三头肌",
+        "event_type_counts": {
+          "training": 1
+        }
+      },
+      {
+        "marker_id": "marker_training_obliques_front",
+        "marker_role": "training_review",
+        "default_visible": false,
+        "label": "腹斜肌",
+        "render_target": {
+          "target_id": "training_load_obliques_front",
+          "kind": "region",
+          "view": "front",
+          "precision": "canonical_muscle_group",
+          "confidence": "catalog",
+          "label": "腹斜肌",
+          "callout_lines": [
+            "腹斜肌｜21 组"
+          ],
+          "original_text": "死虫式、侧身平板支撑、高位平板支撑触肩、死虫式单臂哑铃飞鸟、平板支撑",
+          "region_target_ids": [
+            "bodymap_region_left_external_oblique",
+            "bodymap_region_right_external_oblique"
+          ],
+          "emphasis": "context"
+        },
+        "source": {
+          "source_event_ids": [
+            "event_92726cac9996494196f92df12f1d33ec",
+            "event_8f0e1dcd71da4a5082a9609c2cc652c1"
+          ],
+          "source_draft_ids": [
+            "draft_golden_20260703_upper_strength",
+            "draft_golden_20260709_core_strength"
+          ],
+          "source_refs": [
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L18",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L3"
+          ]
+        },
+        "muscle_id": "obliques",
+        "known_set_count": 21,
+        "heat_level": 4,
+        "has_unrecorded_sets": false,
+        "roles": [
+          "primary",
+          "secondary"
+        ],
+        "contributing_exercises": [
+          {
+            "exercise_label": "死虫式",
+            "canonical_exercise_label": "死虫式",
+            "known_sets": 6,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 2,
+            "role": "primary",
+            "source_event_ids": [
+              "event_92726cac9996494196f92df12f1d33ec",
+              "event_8f0e1dcd71da4a5082a9609c2cc652c1"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260703_upper_strength",
+              "draft_golden_20260709_core_strength"
+            ]
+          },
+          {
+            "exercise_label": "侧身平板支撑",
+            "canonical_exercise_label": "侧身平板支撑",
+            "known_sets": 3,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 1,
+            "role": "primary",
+            "source_event_ids": [
+              "event_8f0e1dcd71da4a5082a9609c2cc652c1"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260709_core_strength"
+            ]
+          },
+          {
+            "exercise_label": "高位平板支撑触肩",
+            "canonical_exercise_label": "高位平板支撑触肩",
+            "known_sets": 3,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 1,
+            "role": "primary",
+            "source_event_ids": [
+              "event_8f0e1dcd71da4a5082a9609c2cc652c1"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260709_core_strength"
+            ]
+          },
+          {
+            "exercise_label": "死虫式单臂哑铃飞鸟",
+            "canonical_exercise_label": "死虫式单臂哑铃飞鸟",
+            "known_sets": 6,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 2,
+            "role": "secondary",
+            "source_event_ids": [
+              "event_92726cac9996494196f92df12f1d33ec",
+              "event_8f0e1dcd71da4a5082a9609c2cc652c1"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260703_upper_strength",
+              "draft_golden_20260709_core_strength"
+            ]
+          },
+          {
+            "exercise_label": "平板支撑",
+            "canonical_exercise_label": "平板支撑",
+            "known_sets": 3,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 1,
+            "role": "secondary",
+            "source_event_ids": [
+              "event_8f0e1dcd71da4a5082a9609c2cc652c1"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260709_core_strength"
+            ]
+          }
+        ],
+        "display_text": "腹斜肌：21 组",
+        "side": "bilateral",
+        "broad_region": "obliques",
+        "specific_location": "腹斜肌",
+        "event_type_counts": {
+          "training": 2
+        }
+      },
+      {
+        "marker_id": "marker_training_rectus_abdominis_front",
+        "marker_role": "training_review",
+        "default_visible": false,
+        "label": "腹直肌",
+        "render_target": {
+          "target_id": "training_load_rectus_abdominis_front",
+          "kind": "region",
+          "view": "front",
+          "precision": "canonical_muscle_group",
+          "confidence": "catalog",
+          "label": "腹直肌",
+          "callout_lines": [
+            "腹直肌｜21 组"
+          ],
+          "original_text": "死虫式、死虫式单臂哑铃飞鸟、平板支撑、侧身平板支撑、高位平板支撑触肩",
+          "region_target_ids": [
+            "bodymap_region_left_rectus_abdominis",
+            "bodymap_region_right_rectus_abdominis"
+          ],
+          "emphasis": "context"
+        },
+        "source": {
+          "source_event_ids": [
+            "event_92726cac9996494196f92df12f1d33ec",
+            "event_8f0e1dcd71da4a5082a9609c2cc652c1"
+          ],
+          "source_draft_ids": [
+            "draft_golden_20260703_upper_strength",
+            "draft_golden_20260709_core_strength"
+          ],
+          "source_refs": [
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L18",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L3"
+          ]
+        },
+        "muscle_id": "rectus_abdominis",
+        "known_set_count": 21,
+        "heat_level": 4,
+        "has_unrecorded_sets": false,
+        "roles": [
+          "primary",
+          "secondary"
+        ],
+        "contributing_exercises": [
+          {
+            "exercise_label": "死虫式",
+            "canonical_exercise_label": "死虫式",
+            "known_sets": 6,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 2,
+            "role": "primary",
+            "source_event_ids": [
+              "event_92726cac9996494196f92df12f1d33ec",
+              "event_8f0e1dcd71da4a5082a9609c2cc652c1"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260703_upper_strength",
+              "draft_golden_20260709_core_strength"
+            ]
+          },
+          {
+            "exercise_label": "死虫式单臂哑铃飞鸟",
+            "canonical_exercise_label": "死虫式单臂哑铃飞鸟",
+            "known_sets": 6,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 2,
+            "role": "primary",
+            "source_event_ids": [
+              "event_92726cac9996494196f92df12f1d33ec",
+              "event_8f0e1dcd71da4a5082a9609c2cc652c1"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260703_upper_strength",
+              "draft_golden_20260709_core_strength"
+            ]
+          },
+          {
+            "exercise_label": "平板支撑",
+            "canonical_exercise_label": "平板支撑",
+            "known_sets": 3,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 1,
+            "role": "primary",
+            "source_event_ids": [
+              "event_8f0e1dcd71da4a5082a9609c2cc652c1"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260709_core_strength"
+            ]
+          },
+          {
+            "exercise_label": "侧身平板支撑",
+            "canonical_exercise_label": "侧身平板支撑",
+            "known_sets": 3,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 1,
+            "role": "secondary",
+            "source_event_ids": [
+              "event_8f0e1dcd71da4a5082a9609c2cc652c1"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260709_core_strength"
+            ]
+          },
+          {
+            "exercise_label": "高位平板支撑触肩",
+            "canonical_exercise_label": "高位平板支撑触肩",
+            "known_sets": 3,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 1,
+            "role": "secondary",
+            "source_event_ids": [
+              "event_8f0e1dcd71da4a5082a9609c2cc652c1"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260709_core_strength"
+            ]
+          }
+        ],
+        "display_text": "腹直肌：21 组",
+        "side": "bilateral",
+        "broad_region": "rectus_abdominis",
+        "specific_location": "腹直肌",
+        "event_type_counts": {
+          "training": 2
+        }
+      },
+      {
+        "marker_id": "marker_training_quadriceps_front",
+        "marker_role": "training_review",
+        "default_visible": false,
+        "label": "股四头肌",
+        "render_target": {
+          "target_id": "training_load_quadriceps_front",
+          "kind": "region",
+          "view": "front",
+          "precision": "canonical_muscle_group",
+          "confidence": "catalog",
+          "label": "股四头肌",
+          "callout_lines": [
+            "股四头肌｜16 组"
+          ],
+          "original_text": "分腿蹲、箭步蹲加哑铃上举、壶铃硬拉、侧向分腿、溜冰式",
+          "region_target_ids": [
+            "bodymap_region_left_quadriceps",
+            "bodymap_region_right_quadriceps"
+          ],
+          "emphasis": "context"
+        },
+        "source": {
+          "source_event_ids": [
+            "event_b6a9d997c2404c55a332b2be6ba3e4f8",
+            "event_f6927490a839422ea471f69a08b51f49",
+            "event_c87cb345f9064fe7bc17cdbf29d7f4b7"
+          ],
+          "source_draft_ids": [
+            "draft_golden_20260701_rehab_training",
+            "draft_golden_20260702_lower_strength",
+            "draft_golden_20260707_lower_strength"
+          ],
+          "source_refs": [
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L14",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L16",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L9"
+          ]
+        },
+        "muscle_id": "quadriceps",
+        "known_set_count": 16,
+        "heat_level": 4,
+        "has_unrecorded_sets": true,
+        "roles": [
+          "primary",
+          "secondary"
+        ],
+        "contributing_exercises": [
+          {
+            "exercise_label": "分腿蹲",
+            "canonical_exercise_label": "分腿蹲",
+            "known_sets": 6,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 2,
+            "role": "primary",
+            "source_event_ids": [
+              "event_f6927490a839422ea471f69a08b51f49",
+              "event_c87cb345f9064fe7bc17cdbf29d7f4b7"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260702_lower_strength",
+              "draft_golden_20260707_lower_strength"
+            ]
+          },
+          {
+            "exercise_label": "箭步蹲加哑铃上举",
+            "canonical_exercise_label": "箭步蹲加哑铃上举",
+            "known_sets": null,
+            "has_unrecorded_sets": true,
+            "occurrence_count": 1,
+            "role": "primary",
+            "source_event_ids": [
+              "event_b6a9d997c2404c55a332b2be6ba3e4f8"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260701_rehab_training"
+            ]
+          },
+          {
+            "exercise_label": "壶铃硬拉",
+            "canonical_exercise_label": "硬拉",
+            "known_sets": 6,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 2,
+            "role": "secondary",
+            "source_event_ids": [
+              "event_f6927490a839422ea471f69a08b51f49",
+              "event_c87cb345f9064fe7bc17cdbf29d7f4b7"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260702_lower_strength",
+              "draft_golden_20260707_lower_strength"
+            ]
+          },
+          {
+            "exercise_label": "侧向分腿",
+            "canonical_exercise_label": "侧向分腿",
+            "known_sets": 2,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 1,
+            "role": "secondary",
+            "source_event_ids": [
+              "event_b6a9d997c2404c55a332b2be6ba3e4f8"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260701_rehab_training"
+            ]
+          },
+          {
+            "exercise_label": "溜冰式",
+            "canonical_exercise_label": "溜冰式",
+            "known_sets": 2,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 1,
+            "role": "secondary",
+            "source_event_ids": [
+              "event_b6a9d997c2404c55a332b2be6ba3e4f8"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260701_rehab_training"
+            ]
+          }
+        ],
+        "display_text": "股四头肌：16 组",
+        "side": "bilateral",
+        "broad_region": "quadriceps",
+        "specific_location": "股四头肌",
+        "event_type_counts": {
+          "training": 3
+        }
+      },
+      {
+        "marker_id": "marker_training_biceps_front",
+        "marker_role": "training_review",
+        "default_visible": false,
+        "label": "肱二头肌",
+        "render_target": {
+          "target_id": "training_load_biceps_front",
+          "kind": "region",
+          "view": "front",
+          "precision": "canonical_muscle_group",
+          "confidence": "catalog",
+          "label": "肱二头肌",
+          "callout_lines": [
+            "肱二头肌｜12 组"
+          ],
+          "original_text": "弯举、TRX 划船、俯卧斜板引体向上、哑铃划船",
+          "region_target_ids": [
+            "bodymap_region_left_biceps",
+            "bodymap_region_right_biceps"
+          ],
+          "emphasis": "context"
+        },
+        "source": {
+          "source_event_ids": [
+            "event_b6a9d997c2404c55a332b2be6ba3e4f8",
+            "event_92726cac9996494196f92df12f1d33ec"
+          ],
+          "source_draft_ids": [
+            "draft_golden_20260701_rehab_training",
+            "draft_golden_20260703_upper_strength"
+          ],
+          "source_refs": [
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L14",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L18"
+          ]
+        },
+        "muscle_id": "biceps",
+        "known_set_count": 12,
+        "heat_level": 3,
+        "has_unrecorded_sets": false,
+        "roles": [
+          "primary",
+          "secondary"
+        ],
+        "contributing_exercises": [
+          {
+            "exercise_label": "弯举",
+            "canonical_exercise_label": "弯举",
+            "known_sets": 3,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 1,
+            "role": "primary",
+            "source_event_ids": [
+              "event_92726cac9996494196f92df12f1d33ec"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260703_upper_strength"
+            ]
+          },
+          {
+            "exercise_label": "TRX 划船",
+            "canonical_exercise_label": "TRX 划船",
+            "known_sets": 3,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 1,
+            "role": "secondary",
+            "source_event_ids": [
+              "event_b6a9d997c2404c55a332b2be6ba3e4f8"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260701_rehab_training"
+            ]
+          },
+          {
+            "exercise_label": "俯卧斜板引体向上",
+            "canonical_exercise_label": "俯卧斜板划船",
+            "known_sets": 3,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 1,
+            "role": "secondary",
+            "source_event_ids": [
+              "event_b6a9d997c2404c55a332b2be6ba3e4f8"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260701_rehab_training"
+            ]
+          },
+          {
+            "exercise_label": "哑铃划船",
+            "canonical_exercise_label": "划船",
+            "known_sets": 3,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 1,
+            "role": "secondary",
+            "source_event_ids": [
+              "event_92726cac9996494196f92df12f1d33ec"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260703_upper_strength"
+            ]
+          }
+        ],
+        "display_text": "肱二头肌：12 组",
+        "side": "bilateral",
+        "broad_region": "biceps",
+        "specific_location": "肱二头肌",
+        "event_type_counts": {
+          "training": 2
+        }
+      },
+      {
+        "marker_id": "marker_training_chest_front",
+        "marker_role": "training_review",
+        "default_visible": false,
+        "label": "胸大肌",
+        "render_target": {
+          "target_id": "training_load_chest_front",
+          "kind": "region",
+          "view": "front",
+          "precision": "canonical_muscle_group",
+          "confidence": "catalog",
+          "label": "胸大肌",
+          "callout_lines": [
+            "胸大肌｜6 组"
+          ],
+          "original_text": "死虫式单臂哑铃飞鸟",
+          "region_target_ids": [
+            "bodymap_region_left_chest",
+            "bodymap_region_right_chest"
+          ],
+          "emphasis": "context"
+        },
+        "source": {
+          "source_event_ids": [
+            "event_92726cac9996494196f92df12f1d33ec",
+            "event_8f0e1dcd71da4a5082a9609c2cc652c1"
+          ],
+          "source_draft_ids": [
+            "draft_golden_20260703_upper_strength",
+            "draft_golden_20260709_core_strength"
+          ],
+          "source_refs": [
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L18",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L3"
+          ]
+        },
+        "muscle_id": "chest",
+        "known_set_count": 6,
+        "heat_level": 2,
+        "has_unrecorded_sets": false,
+        "roles": [
+          "secondary"
+        ],
+        "contributing_exercises": [
+          {
+            "exercise_label": "死虫式单臂哑铃飞鸟",
+            "canonical_exercise_label": "死虫式单臂哑铃飞鸟",
+            "known_sets": 6,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 2,
+            "role": "secondary",
+            "source_event_ids": [
+              "event_92726cac9996494196f92df12f1d33ec",
+              "event_8f0e1dcd71da4a5082a9609c2cc652c1"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260703_upper_strength",
+              "draft_golden_20260709_core_strength"
+            ]
+          }
+        ],
+        "display_text": "胸大肌：6 组",
+        "side": "bilateral",
+        "broad_region": "chest",
+        "specific_location": "胸大肌",
+        "event_type_counts": {
+          "training": 2
+        }
+      },
+      {
+        "marker_id": "marker_training_deltoids_front",
+        "marker_role": "training_review",
+        "default_visible": false,
+        "label": "三角肌",
+        "render_target": {
+          "target_id": "training_load_deltoids_front",
+          "kind": "region",
+          "view": "front",
+          "precision": "canonical_muscle_group",
+          "confidence": "catalog",
+          "label": "三角肌",
+          "callout_lines": [
+            "三角肌｜3 组"
+          ],
+          "original_text": "哑铃侧平举、哑铃肩胛面侧平举",
+          "region_target_ids": [
+            "bodymap_region_left_shoulder_front",
+            "bodymap_region_left_shoulder_side",
+            "bodymap_region_right_shoulder_front",
+            "bodymap_region_right_shoulder_side"
+          ],
+          "emphasis": "context"
+        },
+        "source": {
+          "source_event_ids": [
+            "event_b6a9d997c2404c55a332b2be6ba3e4f8",
+            "event_92726cac9996494196f92df12f1d33ec"
+          ],
+          "source_draft_ids": [
+            "draft_golden_20260701_rehab_training",
+            "draft_golden_20260703_upper_strength"
+          ],
+          "source_refs": [
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L14",
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L18"
+          ]
+        },
+        "muscle_id": "deltoids",
+        "known_set_count": 3,
+        "heat_level": 1,
+        "has_unrecorded_sets": true,
+        "roles": [
+          "primary"
+        ],
+        "contributing_exercises": [
+          {
+            "exercise_label": "哑铃侧平举",
+            "canonical_exercise_label": "侧平举",
+            "known_sets": 3,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 1,
+            "role": "primary",
+            "source_event_ids": [
+              "event_92726cac9996494196f92df12f1d33ec"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260703_upper_strength"
+            ]
+          },
+          {
+            "exercise_label": "哑铃肩胛面侧平举",
+            "canonical_exercise_label": "肩胛面侧平举",
+            "known_sets": null,
+            "has_unrecorded_sets": true,
+            "occurrence_count": 1,
+            "role": "primary",
+            "source_event_ids": [
+              "event_b6a9d997c2404c55a332b2be6ba3e4f8"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260701_rehab_training"
+            ]
+          }
+        ],
+        "display_text": "三角肌：3 组",
+        "side": "bilateral",
+        "broad_region": "deltoids",
+        "specific_location": "三角肌",
+        "event_type_counts": {
+          "training": 2
+        }
+      },
+      {
+        "marker_id": "marker_training_adductors_front",
+        "marker_role": "training_review",
+        "default_visible": false,
+        "label": "内收肌群",
+        "render_target": {
+          "target_id": "training_load_adductors_front",
+          "kind": "region",
+          "view": "front",
+          "precision": "canonical_muscle_group",
+          "confidence": "catalog",
+          "label": "内收肌群",
+          "callout_lines": [
+            "内收肌群｜2 组"
+          ],
+          "original_text": "侧向分腿",
+          "region_target_ids": [
+            "bodymap_region_left_adductors",
+            "bodymap_region_right_adductors"
+          ],
+          "emphasis": "context"
+        },
+        "source": {
+          "source_event_ids": [
+            "event_b6a9d997c2404c55a332b2be6ba3e4f8"
+          ],
+          "source_draft_ids": [
+            "draft_golden_20260701_rehab_training"
+          ],
+          "source_refs": [
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L14"
+          ]
+        },
+        "muscle_id": "adductors",
+        "known_set_count": 2,
+        "heat_level": 1,
+        "has_unrecorded_sets": false,
+        "roles": [
+          "primary"
+        ],
+        "contributing_exercises": [
+          {
+            "exercise_label": "侧向分腿",
+            "canonical_exercise_label": "侧向分腿",
+            "known_sets": 2,
+            "has_unrecorded_sets": false,
+            "occurrence_count": 1,
+            "role": "primary",
+            "source_event_ids": [
+              "event_b6a9d997c2404c55a332b2be6ba3e4f8"
+            ],
+            "source_draft_ids": [
+              "draft_golden_20260701_rehab_training"
+            ]
+          }
+        ],
+        "display_text": "内收肌群：2 组",
+        "side": "bilateral",
+        "broad_region": "adductors",
+        "specific_location": "内收肌群",
+        "event_type_counts": {
+          "training": 1
+        }
+      }
+    ],
+    "default_layers": {
+      "problem_locations": true,
+      "training_review": false
+    },
+    "locked_layers": [
+      "problem_locations"
+    ],
+    "selected_issue_contexts": {
+      "issue_left_ankle": {
+        "issue_id": "issue_left_ankle",
+        "thread_id": "thread_left_ankle",
+        "pt_treatment_markers": [],
+        "training_review_layer_default": false
+      },
+      "issue_left_knee": {
+        "issue_id": "issue_left_knee",
+        "thread_id": "thread_left_knee",
+        "pt_treatment_markers": [
+          {
+            "marker_id": "marker_left_knee_pt_treatment_1",
+            "marker_role": "pt_treatment_context",
+            "default_visible": false,
+            "label": "股四头",
+            "render_target": {
+              "target_id": "bodymap_anterior_thigh_quadriceps",
+              "kind": "region",
+              "view": "front",
+              "precision": "svg_path_group",
+              "label": "左大腿前侧/股四头",
+              "confidence": "high",
+              "original_text": "股四头肌中间靠外侧那条",
+              "callout_anchor": {
+                "x": 0.62,
+                "y": 0.57
+              },
+              "callout_side": "right",
+              "emphasis": "context",
+              "region_target_ids": [
+                "bodymap_region_left_quadriceps",
+                "bodymap_region_left_adductors"
+              ],
+              "callout_lines": [
+                "上次治疗：",
+                "股四头"
+              ]
+            },
+            "source": {
+              "source_event_ids": [
+                "event_fd12a9d2551e4bcfb43b6f67ac91aecf"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260701_stop_lunge_and_quad_treatment"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L14"
+              ]
+            },
+            "muscle_id": null,
+            "known_set_count": null,
+            "heat_level": null,
+            "has_unrecorded_sets": null,
+            "roles": [],
+            "contributing_exercises": [],
+            "thread_id": "thread_left_knee",
+            "issue_id": "issue_left_knee",
+            "trigger": "selected_issue",
+            "display_text": "上次治疗：股四头",
+            "side": "left",
+            "broad_region": "thigh",
+            "specific_location": "anterior thigh / quadriceps"
+          }
+        ],
+        "training_review_layer_default": false
+      },
+      "issue_unknown_shoulder": {
+        "issue_id": "issue_unknown_shoulder",
+        "thread_id": "thread_unknown_shoulder",
+        "pt_treatment_markers": [
+          {
+            "marker_id": "marker_unknown_shoulder_pt_treatment_1",
+            "marker_role": "pt_treatment_context",
+            "default_visible": false,
+            "label": "肩部",
+            "render_target": {
+              "target_id": "bodymap_trapezius_back_group",
+              "kind": "region",
+              "view": "back",
+              "precision": "svg_path_group",
+              "label": "斜方肌",
+              "confidence": "high",
+              "original_text": "斜方肌",
+              "callout_anchor": {
+                "x": 0.52,
+                "y": 0.2
+              },
+              "callout_side": "right",
+              "emphasis": "context",
+              "region_target_ids": [
+                "bodymap_region_left_trapezius_upper",
+                "bodymap_region_left_trapezius_mid",
+                "bodymap_region_left_trapezius_lower",
+                "bodymap_region_right_trapezius_upper",
+                "bodymap_region_right_trapezius_mid",
+                "bodymap_region_right_trapezius_lower"
+              ],
+              "callout_lines": [
+                "上次治疗：",
+                "肩部"
+              ]
+            },
+            "source": {
+              "source_event_ids": [
+                "event_57fc5b376f244454ba303b221c57d24c"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260701_pt_visit"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L14"
+              ]
+            },
+            "muscle_id": null,
+            "known_set_count": null,
+            "heat_level": null,
+            "has_unrecorded_sets": null,
+            "roles": [],
+            "contributing_exercises": [],
+            "thread_id": "thread_unknown_shoulder",
+            "issue_id": "issue_unknown_shoulder",
+            "trigger": "selected_issue",
+            "display_text": "上次治疗：肩部",
+            "side": "unknown",
+            "broad_region": "shoulder",
+            "specific_location": "trapezius"
+          },
+          {
+            "marker_id": "marker_unknown_shoulder_pt_treatment_2",
+            "marker_role": "pt_treatment_context",
+            "default_visible": false,
+            "label": "股四头",
+            "render_target": {
+              "target_id": "bodymap_anterior_thigh_quadriceps",
+              "kind": "region",
+              "view": "front",
+              "precision": "svg_path_group",
+              "label": "左大腿前侧/股四头",
+              "confidence": "high",
+              "original_text": "股四头肌中间靠外侧那条",
+              "callout_anchor": {
+                "x": 0.62,
+                "y": 0.57
+              },
+              "callout_side": "right",
+              "emphasis": "context",
+              "region_target_ids": [
+                "bodymap_region_left_quadriceps",
+                "bodymap_region_left_adductors"
+              ],
+              "callout_lines": [
+                "上次治疗：",
+                "股四头"
+              ]
+            },
+            "source": {
+              "source_event_ids": [
+                "event_57fc5b376f244454ba303b221c57d24c"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260701_pt_visit"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L14"
+              ]
+            },
+            "muscle_id": null,
+            "known_set_count": null,
+            "heat_level": null,
+            "has_unrecorded_sets": null,
+            "roles": [],
+            "contributing_exercises": [],
+            "thread_id": "thread_unknown_shoulder",
+            "issue_id": "issue_unknown_shoulder",
+            "trigger": "selected_issue",
+            "display_text": "上次治疗：股四头",
+            "side": "left",
+            "broad_region": "thigh",
+            "specific_location": "anterior thigh / quadriceps"
+          }
+        ],
+        "training_review_layer_default": false
+      }
+    },
+    "source": {
+      "source_event_ids": [
+        "event_2b62a1c5d1db447c8bcbe588307b335d",
+        "event_fd12a9d2551e4bcfb43b6f67ac91aecf",
+        "event_be41bcf8d91f4fd087a0c14a91d109c5",
+        "event_57fc5b376f244454ba303b221c57d24c",
+        "event_b6a9d997c2404c55a332b2be6ba3e4f8",
+        "event_f6927490a839422ea471f69a08b51f49",
+        "event_92726cac9996494196f92df12f1d33ec",
+        "event_26ccff9d93014de79eb751b004e20490",
+        "event_7758aa4959bc45979eb3765053b35a22",
+        "event_14c5a92be56841079a051b3057231f40",
+        "event_bb1ffd6960da4bf0a94eeb5731fc8765",
+        "event_738ad6ed09d1447eae97defd630c0ff7",
+        "event_e050b0e1e3d842a983639075d4d56c95",
+        "event_315886d8e178415f99aef6837310d2b8",
+        "event_c87cb345f9064fe7bc17cdbf29d7f4b7",
+        "event_fd10dc4500cc48c1b03da60ad224a447",
+        "event_716fa86175c444de94a8efbcdb49be2b",
+        "event_6c39bb563596446989203aa2f29e4cea",
+        "event_0f00f066d71d4708aa107b57206f4551",
+        "event_8f0e1dcd71da4a5082a9609c2cc652c1",
+        "event_a3c40bd2b86649578cda5515b96c3acc",
+        "event_coros_67112505321dd60c92519fe9_0"
+      ],
+      "source_draft_ids": [
+        "draft_golden_20260701_shoulder_body_status",
+        "draft_golden_20260701_stop_lunge_and_quad_treatment",
+        "draft_golden_20260701_pain_left_knee_lunge",
+        "draft_golden_20260701_pt_visit",
+        "draft_golden_20260701_rehab_training",
+        "draft_golden_20260702_lower_strength",
+        "draft_golden_20260703_upper_strength",
+        "draft_golden_20260704_rest_note",
+        "draft_golden_20260705_run",
+        "draft_golden_20260706_pain_left_knee_run",
+        "draft_golden_20260706_pain_left_ankle_run",
+        "draft_golden_20260706_run",
+        "draft_golden_20260707_deadlift_adjustment",
+        "draft_golden_20260707_pain_left_knee_split_squat",
+        "draft_golden_20260707_lower_strength",
+        "draft_golden_20260708_mobility",
+        "draft_golden_20260709_landing_adjustment_outcome",
+        "draft_golden_20260709_pain_left_knee_run",
+        "draft_golden_20260709_mobility",
+        "draft_golden_20260709_core_strength",
+        "draft_golden_20260709_run",
+        "draft_coros_67112505321dd60c92519fe9_0"
+      ],
+      "source_refs": [
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L14",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L16",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L18",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L20",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L12",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L11",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L9",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L7",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L1",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L5",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L3",
+        "raw_coros_67112505321dd60c92519fe9_0"
+      ]
+    }
+  },
+  "related_records": {
+    "groups": [
+      {
+        "group_id": "related_issue_left_knee_2026-07-01",
+        "thread_id": "thread_left_knee",
+        "issue_id": "issue_left_knee",
+        "date": "2026-07-01",
+        "display_title": "左膝",
+        "narrative_role": "上次治疗",
+        "scene_title": "PT 康复训练｜箭步蹲加哑铃上举",
+        "group_kind": "first_screen_narrative_evidence",
+        "records": [
+          {
+            "slot": "context",
+            "role_label": "出现情境",
+            "date": "2026-07-01",
+            "event_ids": [
+              "event_b6a9d997c2404c55a332b2be6ba3e4f8"
+            ],
+            "title": "出现情境",
+            "summary": "康复训练中，箭步蹲加哑铃上举的起身阶段",
+            "followup_status": "已记录",
+            "care_classifications": [],
+            "source": {
+              "source_event_ids": [
+                "event_b6a9d997c2404c55a332b2be6ba3e4f8"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260701_rehab_training"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L14"
+              ]
+            }
+          },
+          {
+            "slot": "body_reaction",
+            "role_label": "身体反应",
+            "date": "2026-07-01",
+            "event_ids": [
+              "event_be41bcf8d91f4fd087a0c14a91d109c5"
+            ],
+            "title": "身体反应",
+            "summary": "左膝疼痛，共2次",
+            "followup_status": "已记录",
+            "care_classifications": [],
+            "source": {
+              "source_event_ids": [
+                "event_be41bcf8d91f4fd087a0c14a91d109c5"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260701_pain_left_knee_lunge"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L14"
+              ]
+            }
+          },
+          {
+            "slot": "adjustment_intervention",
+            "role_label": "处理/调整",
+            "date": "2026-07-01",
+            "event_ids": [
+              "event_fd12a9d2551e4bcfb43b6f67ac91aecf"
+            ],
+            "title": "处理/调整",
+            "summary": "停止箭步蹲；随后对左侧股四头肌中间靠外侧进行手法松解、筋膜刀及冲击波处理",
+            "followup_status": "已记录",
+            "care_classifications": [
+              {
+                "event_id": "event_fd12a9d2551e4bcfb43b6f67ac91aecf",
+                "step_type": "training_adjustment",
+                "source_category": "pt_treatment",
+                "display_label": "PT处理"
+              },
+              {
+                "event_id": "event_fd12a9d2551e4bcfb43b6f67ac91aecf",
+                "step_type": "manual_treatment",
+                "source_category": "pt_treatment",
+                "display_label": "PT处理"
+              },
+              {
+                "event_id": "event_fd12a9d2551e4bcfb43b6f67ac91aecf",
+                "step_type": "device_treatment",
+                "source_category": "pt_treatment",
+                "display_label": "PT处理"
+              },
+              {
+                "event_id": "event_fd12a9d2551e4bcfb43b6f67ac91aecf",
+                "step_type": "device_treatment",
+                "source_category": "pt_treatment",
+                "display_label": "PT处理"
+              }
+            ],
+            "source": {
+              "source_event_ids": [
+                "event_fd12a9d2551e4bcfb43b6f67ac91aecf"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260701_stop_lunge_and_quad_treatment"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L14"
+              ]
+            }
+          },
+          {
+            "slot": "followup_outcome",
+            "role_label": "结果/跟进",
+            "date": "2026-07-01",
+            "event_ids": [
+              "event_be41bcf8d91f4fd087a0c14a91d109c5"
+            ],
+            "title": "结果/跟进",
+            "summary": "处理后左膝状态未记录，待跟进。",
+            "followup_status": "待跟进",
+            "care_classifications": [],
+            "source": {
+              "source_event_ids": [
+                "event_be41bcf8d91f4fd087a0c14a91d109c5"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260701_pain_left_knee_lunge"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L14"
+              ]
+            }
+          }
+        ],
+        "unresolved_item_ids": [
+          "unresolvedrow_ff4fc5e80baa414f98e2c03fc5933011"
+        ],
+        "source": {
+          "source_event_ids": [
+            "event_fd12a9d2551e4bcfb43b6f67ac91aecf",
+            "event_be41bcf8d91f4fd087a0c14a91d109c5",
+            "event_b6a9d997c2404c55a332b2be6ba3e4f8"
+          ],
+          "source_draft_ids": [
+            "draft_golden_20260701_stop_lunge_and_quad_treatment",
+            "draft_golden_20260701_pain_left_knee_lunge",
+            "draft_golden_20260701_rehab_training"
+          ],
+          "source_refs": [
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L14"
+          ]
+        }
+      },
+      {
+        "group_id": "related_issue_left_knee_2026-07-06",
+        "thread_id": "thread_left_knee",
+        "issue_id": "issue_left_knee",
+        "date": "2026-07-06",
+        "display_title": "左膝",
+        "narrative_role": "二次记录",
+        "scene_title": "跑步",
+        "group_kind": "first_screen_narrative_evidence",
+        "records": [
+          {
+            "slot": "context",
+            "role_label": "出现情境",
+            "date": "2026-07-06",
+            "event_ids": [
+              "event_738ad6ed09d1447eae97defd630c0ff7"
+            ],
+            "title": "出现情境",
+            "summary": "跑步约4公里时出现疼痛",
+            "followup_status": "已记录",
+            "care_classifications": [],
+            "source": {
+              "source_event_ids": [
+                "event_738ad6ed09d1447eae97defd630c0ff7"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260706_run"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L11"
+              ]
+            }
+          },
+          {
+            "slot": "body_reaction",
+            "role_label": "身体反应",
+            "date": "2026-07-06",
+            "event_ids": [
+              "event_14c5a92be56841079a051b3057231f40"
+            ],
+            "title": "身体反应",
+            "summary": "左膝疼痛；具体位置未记录",
+            "followup_status": "已记录",
+            "care_classifications": [],
+            "source": {
+              "source_event_ids": [
+                "event_14c5a92be56841079a051b3057231f40"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260706_pain_left_knee_run"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L11"
+              ]
+            }
+          },
+          {
+            "slot": "followup_outcome",
+            "role_label": "结果/跟进",
+            "date": "2026-07-06",
+            "event_ids": [
+              "event_14c5a92be56841079a051b3057231f40"
+            ],
+            "title": "结果/跟进",
+            "summary": "跑后状态待确认。",
+            "followup_status": "待跟进",
+            "care_classifications": [],
+            "source": {
+              "source_event_ids": [
+                "event_14c5a92be56841079a051b3057231f40"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260706_pain_left_knee_run"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L11"
+              ]
+            }
+          }
+        ],
+        "unresolved_item_ids": [
+          "unresolvedrow_0617174aeeea4c4ba66b075e777c7b39"
+        ],
+        "source": {
+          "source_event_ids": [
+            "event_14c5a92be56841079a051b3057231f40",
+            "event_738ad6ed09d1447eae97defd630c0ff7"
+          ],
+          "source_draft_ids": [
+            "draft_golden_20260706_pain_left_knee_run",
+            "draft_golden_20260706_run"
+          ],
+          "source_refs": [
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L11"
+          ]
+        }
+      },
+      {
+        "group_id": "related_issue_left_knee_2026-07-07",
+        "thread_id": "thread_left_knee",
+        "issue_id": "issue_left_knee",
+        "date": "2026-07-07",
+        "display_title": "左膝",
+        "narrative_role": "再次记录",
+        "scene_title": "力量训练｜分腿蹲",
+        "group_kind": "first_screen_narrative_evidence",
+        "records": [
+          {
+            "slot": "context",
+            "role_label": "出现情境",
+            "date": "2026-07-07",
+            "event_ids": [
+              "event_c87cb345f9064fe7bc17cdbf29d7f4b7"
+            ],
+            "title": "出现情境",
+            "summary": "分腿蹲（右腿在前），左腿由下蹲位起身阶段；症状见于第1组和第3组，次数未精确记录",
+            "followup_status": "已记录",
+            "care_classifications": [],
+            "source": {
+              "source_event_ids": [
+                "event_c87cb345f9064fe7bc17cdbf29d7f4b7"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260707_lower_strength"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L9"
+              ]
+            }
+          },
+          {
+            "slot": "body_reaction",
+            "role_label": "身体反应",
+            "date": "2026-07-07",
+            "event_ids": [
+              "event_315886d8e178415f99aef6837310d2b8"
+            ],
+            "title": "身体反应",
+            "summary": "左膝疼痛；具体位置未记录",
+            "followup_status": "已记录",
+            "care_classifications": [],
+            "source": {
+              "source_event_ids": [
+                "event_315886d8e178415f99aef6837310d2b8"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260707_pain_left_knee_split_squat"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L9"
+              ]
+            }
+          },
+          {
+            "slot": "adjustment_intervention",
+            "role_label": "处理/调整",
+            "date": "2026-07-07",
+            "event_ids": [
+              "event_e050b0e1e3d842a983639075d4d56c95"
+            ],
+            "title": "处理/调整",
+            "summary": "同次训练中，因膝部不适将相扑硬拉调整为普通硬拉",
+            "followup_status": "已记录",
+            "care_classifications": [
+              {
+                "event_id": "event_e050b0e1e3d842a983639075d4d56c95",
+                "step_type": "training_adjustment",
+                "source_category": "owner_training_adjustment",
+                "display_label": "训练调整"
+              }
+            ],
+            "source": {
+              "source_event_ids": [
+                "event_e050b0e1e3d842a983639075d4d56c95"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260707_deadlift_adjustment"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L9"
+              ]
+            }
+          },
+          {
+            "slot": "followup_outcome",
+            "role_label": "结果/跟进",
+            "date": "2026-07-07",
+            "event_ids": [
+              "event_315886d8e178415f99aef6837310d2b8"
+            ],
+            "title": "结果/跟进",
+            "summary": "训练后状态待确认。",
+            "followup_status": "待跟进",
+            "care_classifications": [],
+            "source": {
+              "source_event_ids": [
+                "event_315886d8e178415f99aef6837310d2b8"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260707_pain_left_knee_split_squat"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L9"
+              ]
+            }
+          }
+        ],
+        "unresolved_item_ids": [
+          "unresolvedrow_c5b6a08097184a9fa0ea1feab37d6ba0"
+        ],
+        "source": {
+          "source_event_ids": [
+            "event_e050b0e1e3d842a983639075d4d56c95",
+            "event_315886d8e178415f99aef6837310d2b8",
+            "event_c87cb345f9064fe7bc17cdbf29d7f4b7"
+          ],
+          "source_draft_ids": [
+            "draft_golden_20260707_deadlift_adjustment",
+            "draft_golden_20260707_pain_left_knee_split_squat",
+            "draft_golden_20260707_lower_strength"
+          ],
+          "source_refs": [
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L9"
+          ]
+        }
+      },
+      {
+        "group_id": "related_issue_left_knee_2026-07-09",
+        "thread_id": "thread_left_knee",
+        "issue_id": "issue_left_knee",
+        "date": "2026-07-09",
+        "display_title": "左膝",
+        "narrative_role": "最近记录",
+        "scene_title": "跑步",
+        "group_kind": "first_screen_narrative_evidence",
+        "records": [
+          {
+            "slot": "context",
+            "role_label": "出现情境",
+            "date": "2026-07-09",
+            "event_ids": [
+              "event_a3c40bd2b86649578cda5515b96c3acc",
+              "event_coros_67112505321dd60c92519fe9_0"
+            ],
+            "title": "出现情境",
+            "summary": "本次跑步 8.20 km，平均配速 6'06\"/km，平均心率 146 bpm；跑步中，症状首次出现于第1–2公里，约第5公里再次出现",
+            "followup_status": "已记录",
+            "care_classifications": [],
+            "source": {
+              "source_event_ids": [
+                "event_a3c40bd2b86649578cda5515b96c3acc",
+                "event_coros_67112505321dd60c92519fe9_0"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260709_run",
+                "draft_coros_67112505321dd60c92519fe9_0"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L1",
+                "raw_coros_67112505321dd60c92519fe9_0"
+              ]
+            }
+          },
+          {
+            "slot": "body_reaction",
+            "role_label": "身体反应",
+            "date": "2026-07-09",
+            "event_ids": [
+              "event_6c39bb563596446989203aa2f29e4cea"
+            ],
+            "title": "身体反应",
+            "summary": "左膝疼痛；再次出现时位于膝前内侧",
+            "followup_status": "已记录",
+            "care_classifications": [],
+            "source": {
+              "source_event_ids": [
+                "event_6c39bb563596446989203aa2f29e4cea"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260709_pain_left_knee_run"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L1"
+              ]
+            }
+          },
+          {
+            "slot": "adjustment_intervention",
+            "role_label": "处理/调整",
+            "date": "2026-07-09",
+            "event_ids": [
+              "event_a3c40bd2b86649578cda5515b96c3acc",
+              "event_coros_67112505321dd60c92519fe9_0"
+            ],
+            "title": "处理/调整",
+            "summary": "首次出现疼痛后调整跑步落地姿势",
+            "followup_status": "已记录",
+            "care_classifications": [],
+            "source": {
+              "source_event_ids": [
+                "event_a3c40bd2b86649578cda5515b96c3acc",
+                "event_coros_67112505321dd60c92519fe9_0"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260709_run",
+                "draft_coros_67112505321dd60c92519fe9_0"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L1",
+                "raw_coros_67112505321dd60c92519fe9_0"
+              ]
+            }
+          },
+          {
+            "slot": "followup_outcome",
+            "role_label": "结果/跟进",
+            "date": "2026-07-09",
+            "event_ids": [
+              "event_716fa86175c444de94a8efbcdb49be2b"
+            ],
+            "title": "结果/跟进",
+            "summary": "疼痛短暂缓解，后段再次出现；跑后状态待确认。",
+            "followup_status": "待跟进",
+            "care_classifications": [],
+            "source": {
+              "source_event_ids": [
+                "event_716fa86175c444de94a8efbcdb49be2b"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260709_landing_adjustment_outcome"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L1"
+              ]
+            }
+          }
+        ],
+        "unresolved_item_ids": [
+          "unresolvedrow_741f747e41e34694991f679d83182413"
+        ],
+        "source": {
+          "source_event_ids": [
+            "event_716fa86175c444de94a8efbcdb49be2b",
+            "event_6c39bb563596446989203aa2f29e4cea",
+            "event_a3c40bd2b86649578cda5515b96c3acc",
+            "event_coros_67112505321dd60c92519fe9_0"
+          ],
+          "source_draft_ids": [
+            "draft_golden_20260709_landing_adjustment_outcome",
+            "draft_golden_20260709_pain_left_knee_run",
+            "draft_golden_20260709_run",
+            "draft_coros_67112505321dd60c92519fe9_0"
+          ],
+          "source_refs": [
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L1",
+            "raw_coros_67112505321dd60c92519fe9_0"
+          ]
+        }
+      },
+      {
+        "group_id": "related_issue_left_ankle_2026-07-06",
+        "thread_id": "thread_left_ankle",
+        "issue_id": "issue_left_ankle",
+        "date": "2026-07-06",
+        "display_title": "左踝",
+        "narrative_role": "首次记录",
+        "scene_title": "跑步",
+        "group_kind": "first_screen_narrative_evidence",
+        "records": [
+          {
+            "slot": "context",
+            "role_label": "出现情境",
+            "date": "2026-07-06",
+            "event_ids": [
+              "event_738ad6ed09d1447eae97defd630c0ff7"
+            ],
+            "title": "出现情境",
+            "summary": "跑步约1公里时出现疼痛",
+            "followup_status": "已记录",
+            "care_classifications": [],
+            "source": {
+              "source_event_ids": [
+                "event_738ad6ed09d1447eae97defd630c0ff7"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260706_run"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L11"
+              ]
+            }
+          },
+          {
+            "slot": "body_reaction",
+            "role_label": "身体反应",
+            "date": "2026-07-06",
+            "event_ids": [
+              "event_bb1ffd6960da4bf0a94eeb5731fc8765"
+            ],
+            "title": "身体反应",
+            "summary": "未具体说明疼痛；具体位置未记录",
+            "followup_status": "已记录",
+            "care_classifications": [],
+            "source": {
+              "source_event_ids": [
+                "event_bb1ffd6960da4bf0a94eeb5731fc8765"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260706_pain_left_ankle_run"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L11"
+              ]
+            }
+          },
+          {
+            "slot": "followup_outcome",
+            "role_label": "结果/跟进",
+            "date": "2026-07-06",
+            "event_ids": [
+              "event_bb1ffd6960da4bf0a94eeb5731fc8765"
+            ],
+            "title": "结果/跟进",
+            "summary": "跑后状态待确认。",
+            "followup_status": "待跟进",
+            "care_classifications": [],
+            "source": {
+              "source_event_ids": [
+                "event_bb1ffd6960da4bf0a94eeb5731fc8765"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260706_pain_left_ankle_run"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L11"
+              ]
+            }
+          }
+        ],
+        "unresolved_item_ids": [
+          "unresolvedrow_0617174aeeea4c4ba66b075e777c7b39"
+        ],
+        "source": {
+          "source_event_ids": [
+            "event_bb1ffd6960da4bf0a94eeb5731fc8765",
+            "event_738ad6ed09d1447eae97defd630c0ff7"
+          ],
+          "source_draft_ids": [
+            "draft_golden_20260706_pain_left_ankle_run",
+            "draft_golden_20260706_run"
+          ],
+          "source_refs": [
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L11"
+          ]
+        }
+      },
+      {
+        "group_id": "related_issue_unknown_shoulder_2026-07-01",
+        "thread_id": "thread_unknown_shoulder",
+        "issue_id": "issue_unknown_shoulder",
+        "date": "2026-07-01",
+        "display_title": "肩",
+        "narrative_role": "上次治疗",
+        "scene_title": "PT 治疗｜对斜方肌进行手法松解、冲击波处理",
+        "group_kind": "first_screen_narrative_evidence",
+        "records": [
+          {
+            "slot": "body_reaction",
+            "role_label": "身体反应",
+            "date": "2026-07-01",
+            "event_ids": [
+              "event_2b62a1c5d1db447c8bcbe588307b335d"
+            ],
+            "title": "身体反应",
+            "summary": "肩部间歇性紧张并伴疼痛",
+            "followup_status": "已记录",
+            "care_classifications": [],
+            "source": {
+              "source_event_ids": [
+                "event_2b62a1c5d1db447c8bcbe588307b335d"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260701_shoulder_body_status"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L14"
+              ]
+            }
+          },
+          {
+            "slot": "adjustment_intervention",
+            "role_label": "处理/调整",
+            "date": "2026-07-01",
+            "event_ids": [
+              "event_57fc5b376f244454ba303b221c57d24c"
+            ],
+            "title": "处理/调整",
+            "summary": "对斜方肌进行手法松解、冲击波处理",
+            "followup_status": "已记录",
+            "care_classifications": [
+              {
+                "event_id": "event_57fc5b376f244454ba303b221c57d24c",
+                "step_type": "manual_treatment",
+                "source_category": "pt_treatment",
+                "display_label": "PT处理"
+              },
+              {
+                "event_id": "event_57fc5b376f244454ba303b221c57d24c",
+                "step_type": "device_treatment",
+                "source_category": "pt_treatment",
+                "display_label": "PT处理"
+              }
+            ],
+            "source": {
+              "source_event_ids": [
+                "event_57fc5b376f244454ba303b221c57d24c"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260701_pt_visit"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L14"
+              ]
+            }
+          },
+          {
+            "slot": "followup_outcome",
+            "role_label": "结果/跟进",
+            "date": "2026-07-01",
+            "event_ids": [
+              "event_2b62a1c5d1db447c8bcbe588307b335d"
+            ],
+            "title": "结果/跟进",
+            "summary": "处理后肩部状态未记录，待跟进。",
+            "followup_status": "待跟进",
+            "care_classifications": [],
+            "source": {
+              "source_event_ids": [
+                "event_2b62a1c5d1db447c8bcbe588307b335d"
+              ],
+              "source_draft_ids": [
+                "draft_golden_20260701_shoulder_body_status"
+              ],
+              "source_refs": [
+                "raw_6f12e469c4d14b1f907f0c26662e3647:L14"
+              ]
+            }
+          }
+        ],
+        "unresolved_item_ids": [
+          "unresolvedrow_707ca9b530d04e61b1b85660cde16c64"
+        ],
+        "source": {
+          "source_event_ids": [
+            "event_2b62a1c5d1db447c8bcbe588307b335d",
+            "event_57fc5b376f244454ba303b221c57d24c"
+          ],
+          "source_draft_ids": [
+            "draft_golden_20260701_shoulder_body_status",
+            "draft_golden_20260701_pt_visit"
+          ],
+          "source_refs": [
+            "raw_6f12e469c4d14b1f907f0c26662e3647:L14"
+          ]
+        }
+      }
+    ],
+    "source": {
+      "source_event_ids": [
+        "event_2b62a1c5d1db447c8bcbe588307b335d",
+        "event_fd12a9d2551e4bcfb43b6f67ac91aecf",
+        "event_be41bcf8d91f4fd087a0c14a91d109c5",
+        "event_57fc5b376f244454ba303b221c57d24c",
+        "event_b6a9d997c2404c55a332b2be6ba3e4f8",
+        "event_f6927490a839422ea471f69a08b51f49",
+        "event_92726cac9996494196f92df12f1d33ec",
+        "event_26ccff9d93014de79eb751b004e20490",
+        "event_7758aa4959bc45979eb3765053b35a22",
+        "event_14c5a92be56841079a051b3057231f40",
+        "event_bb1ffd6960da4bf0a94eeb5731fc8765",
+        "event_738ad6ed09d1447eae97defd630c0ff7",
+        "event_e050b0e1e3d842a983639075d4d56c95",
+        "event_315886d8e178415f99aef6837310d2b8",
+        "event_c87cb345f9064fe7bc17cdbf29d7f4b7",
+        "event_fd10dc4500cc48c1b03da60ad224a447",
+        "event_716fa86175c444de94a8efbcdb49be2b",
+        "event_6c39bb563596446989203aa2f29e4cea",
+        "event_0f00f066d71d4708aa107b57206f4551",
+        "event_8f0e1dcd71da4a5082a9609c2cc652c1",
+        "event_a3c40bd2b86649578cda5515b96c3acc",
+        "event_coros_67112505321dd60c92519fe9_0"
+      ],
+      "source_draft_ids": [
+        "draft_golden_20260701_shoulder_body_status",
+        "draft_golden_20260701_stop_lunge_and_quad_treatment",
+        "draft_golden_20260701_pain_left_knee_lunge",
+        "draft_golden_20260701_pt_visit",
+        "draft_golden_20260701_rehab_training",
+        "draft_golden_20260702_lower_strength",
+        "draft_golden_20260703_upper_strength",
+        "draft_golden_20260704_rest_note",
+        "draft_golden_20260705_run",
+        "draft_golden_20260706_pain_left_knee_run",
+        "draft_golden_20260706_pain_left_ankle_run",
+        "draft_golden_20260706_run",
+        "draft_golden_20260707_deadlift_adjustment",
+        "draft_golden_20260707_pain_left_knee_split_squat",
+        "draft_golden_20260707_lower_strength",
+        "draft_golden_20260708_mobility",
+        "draft_golden_20260709_landing_adjustment_outcome",
+        "draft_golden_20260709_pain_left_knee_run",
+        "draft_golden_20260709_mobility",
+        "draft_golden_20260709_core_strength",
+        "draft_golden_20260709_run",
+        "draft_coros_67112505321dd60c92519fe9_0"
+      ],
+      "source_refs": [
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L14",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L16",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L18",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L20",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L12",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L11",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L9",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L7",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L1",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L5",
+        "raw_6f12e469c4d14b1f907f0c26662e3647:L3",
+        "raw_coros_67112505321dd60c92519fe9_0"
+      ]
+    }
+  }
+}
